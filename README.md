@@ -8,3 +8,12 @@ My changes:
 * Changed font to [Hack](https://sourcefoundry.org/hack/) via config.h
 * Added patch for transparent background and set [alpha](https://st.suckless.org/patches/alpha/)
 * Added patch for [scrolling](https://st.suckless.org/patches/scrollback/) in terminal history
+
+For alpha to work, I installed xcompmgr from Ubuntu repositories:
+	
+	sudo apt install xcompmgr
+
+and created `/etc/xprofile` with content
+
+	xcompmgr -c &
+
